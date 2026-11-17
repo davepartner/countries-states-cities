@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "GI",
-        "state_code": null,
-        "code": "GX11 1AA",
-        "locality_name": "Gibraltar",
-        "type": "full",
-        "latitude": "36.13330000",
-        "longitude": "-5.35000000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "GI",
+    "state_code": null,
+    "code": "GX11 1AA",
+    "locality_name": "Gibraltar",
+    "type": "full",
+    "latitude": "36.13330000",
+    "longitude": "-5.35000000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

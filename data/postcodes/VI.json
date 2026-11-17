@@ -1,74 +1,74 @@
 [
-    {
-        "country_code": "VI",
-        "state_code": "ST",
-        "code": "00802",
-        "locality_name": "Charlotte Amalie",
-        "type": "full",
-        "latitude": "18.34293900",
-        "longitude": "-64.92510200",
-        "source": "us-census-via-vi-mirror",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "VI",
-        "state_code": "SC",
-        "code": "00820",
-        "locality_name": "Christiansted",
-        "type": "full",
-        "latitude": "17.73662700",
-        "longitude": "-64.70821500",
-        "source": "us-census-via-vi-mirror",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "VI",
-        "state_code": "SJ",
-        "code": "00830",
-        "locality_name": "Coral Bay",
-        "type": "full",
-        "latitude": "18.33855900",
-        "longitude": "-64.73653000",
-        "source": "us-census-via-vi-mirror",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "VI",
-        "state_code": "SC",
-        "code": "00840",
-        "locality_name": "Northcentral",
-        "type": "full",
-        "latitude": "17.72471000",
-        "longitude": "-64.84852200",
-        "source": "us-census-via-vi-mirror",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "VI",
-        "state_code": "SC",
-        "code": "00850",
-        "locality_name": "Southcentral",
-        "type": "full",
-        "latitude": "17.72682200",
-        "longitude": "-64.79224500",
-        "source": "us-census-via-vi-mirror",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "VI",
-        "state_code": "SC",
-        "code": "00851",
-        "locality_name": "Sion Farm",
-        "type": "full",
-        "latitude": "17.74752500",
-        "longitude": "-64.78743900",
-        "source": "us-census-via-vi-mirror",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "VI",
+    "state_code": "ST",
+    "code": "00802",
+    "locality_name": "Charlotte Amalie",
+    "type": "full",
+    "latitude": "18.34293900",
+    "longitude": "-64.92510200",
+    "source": "us-census-via-vi-mirror",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "VI",
+    "state_code": "SC",
+    "code": "00820",
+    "locality_name": "Christiansted",
+    "type": "full",
+    "latitude": "17.73662700",
+    "longitude": "-64.70821500",
+    "source": "us-census-via-vi-mirror",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "VI",
+    "state_code": "SJ",
+    "code": "00830",
+    "locality_name": "Coral Bay",
+    "type": "full",
+    "latitude": "18.33855900",
+    "longitude": "-64.73653000",
+    "source": "us-census-via-vi-mirror",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "VI",
+    "state_code": "SC",
+    "code": "00840",
+    "locality_name": "Northcentral",
+    "type": "full",
+    "latitude": "17.72471000",
+    "longitude": "-64.84852200",
+    "source": "us-census-via-vi-mirror",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "VI",
+    "state_code": "SC",
+    "code": "00850",
+    "locality_name": "Southcentral",
+    "type": "full",
+    "latitude": "17.72682200",
+    "longitude": "-64.79224500",
+    "source": "us-census-via-vi-mirror",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "VI",
+    "state_code": "SC",
+    "code": "00851",
+    "locality_name": "Sion Farm",
+    "type": "full",
+    "latitude": "17.74752500",
+    "longitude": "-64.78743900",
+    "source": "us-census-via-vi-mirror",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

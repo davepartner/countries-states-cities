@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "SO",
-        "state_code": null,
-        "code": "BN 09010",
-        "locality_name": "Mogadishu",
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "osm",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "SO",
+    "state_code": null,
+    "code": "BN 09010",
+    "locality_name": "Mogadishu",
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "osm",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

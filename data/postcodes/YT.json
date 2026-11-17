@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "YT",
-        "state_code": null,
-        "code": "97600",
-        "locality_name": null,
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "YT",
+    "state_code": null,
+    "code": "97600",
+    "locality_name": null,
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

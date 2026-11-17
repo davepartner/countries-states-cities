@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "GS",
-        "state_code": null,
-        "code": "SIQQ 1ZZ",
-        "locality_name": "South Georgia and the South Sandwich Islands",
-        "type": "full",
-        "latitude": "-56.00000000",
-        "longitude": "-33.00000000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "GS",
+    "state_code": null,
+    "code": "SIQQ 1ZZ",
+    "locality_name": "South Georgia and the South Sandwich Islands",
+    "type": "full",
+    "latitude": "-56.00000000",
+    "longitude": "-33.00000000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

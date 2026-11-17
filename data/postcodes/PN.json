@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "PN",
-        "state_code": null,
-        "code": "PCRN 1ZZ",
-        "locality_name": "Pitcairn, Henderson, Ducie and Oeno Islands",
-        "type": "full",
-        "latitude": "-25.06670000",
-        "longitude": "-130.10000000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "PN",
+    "state_code": null,
+    "code": "PCRN 1ZZ",
+    "locality_name": "Pitcairn, Henderson, Ducie and Oeno Islands",
+    "type": "full",
+    "latitude": "-25.06670000",
+    "longitude": "-130.10000000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

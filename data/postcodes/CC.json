@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "CC",
-        "state_code": null,
-        "code": "6799",
-        "locality_name": "Territory of Cocos (Keeling) Islands",
-        "type": "full",
-        "latitude": "-12.16420000",
-        "longitude": "96.87330000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "CC",
+    "state_code": null,
+    "code": "6799",
+    "locality_name": "Territory of Cocos (Keeling) Islands",
+    "type": "full",
+    "latitude": "-12.16420000",
+    "longitude": "96.87330000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "WF",
-        "state_code": "UV",
-        "code": "98600",
-        "locality_name": "Uvéa",
-        "type": "full",
-        "latitude": "-13.29880000",
-        "longitude": "-176.22050000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "WF",
+    "state_code": "UV",
+    "code": "98600",
+    "locality_name": "Uvéa",
+    "type": "full",
+    "latitude": "-13.29880000",
+    "longitude": "-176.22050000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

@@ -1,26 +1,26 @@
 [
-    {
-        "country_code": "MM",
-        "state_code": null,
-        "code": "1102004",
-        "locality_name": "Mingaladon",
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "osm",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MM",
-        "state_code": null,
-        "code": "1409002",
-        "locality_name": "Kawthaung",
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "osm",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "MM",
+    "state_code": null,
+    "code": "1102004",
+    "locality_name": "Mingaladon",
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "osm",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MM",
+    "state_code": null,
+    "code": "1409002",
+    "locality_name": "Kawthaung",
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "osm",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

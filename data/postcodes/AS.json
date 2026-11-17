@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "AS",
-        "state_code": null,
-        "code": "96799",
-        "locality_name": "Pago Pago",
-        "type": "full",
-        "latitude": "-14.27810000",
-        "longitude": "-170.70250000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "AS",
+    "state_code": null,
+    "code": "96799",
+    "locality_name": "Pago Pago",
+    "type": "full",
+    "latitude": "-14.27810000",
+    "longitude": "-170.70250000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

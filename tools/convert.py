@@ -406,7 +406,7 @@ def main():
         path = os.path.join(args.dst, name)
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w", encoding="utf-8") as fh:
-            json.dump(obj, fh, ensure_ascii=False, indent=4)
+            json.dump(obj, fh, ensure_ascii=False, indent=2)
             fh.write("\n")
 
     write("regions.json", regions)

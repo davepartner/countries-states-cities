@@ -1,38 +1,38 @@
 [
-    {
-        "country_code": "MP",
-        "state_code": null,
-        "code": "96950",
-        "locality_name": "Saipan",
-        "type": "full",
-        "latitude": "15.16850000",
-        "longitude": "145.74080000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MP",
-        "state_code": null,
-        "code": "96951",
-        "locality_name": "Rota",
-        "type": "full",
-        "latitude": "14.15400000",
-        "longitude": "145.20100000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MP",
-        "state_code": null,
-        "code": "96952",
-        "locality_name": "Tinian",
-        "type": "full",
-        "latitude": "15.02900000",
-        "longitude": "145.61600000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "MP",
+    "state_code": null,
+    "code": "96950",
+    "locality_name": "Saipan",
+    "type": "full",
+    "latitude": "15.16850000",
+    "longitude": "145.74080000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MP",
+    "state_code": null,
+    "code": "96951",
+    "locality_name": "Rota",
+    "type": "full",
+    "latitude": "14.15400000",
+    "longitude": "145.20100000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MP",
+    "state_code": null,
+    "code": "96952",
+    "locality_name": "Tinian",
+    "type": "full",
+    "latitude": "15.02900000",
+    "longitude": "145.61600000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

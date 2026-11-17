@@ -1,14 +1,14 @@
 [
-    {
-        "country_code": "PM",
-        "state_code": null,
-        "code": "97500",
-        "locality_name": null,
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "PM",
+    "state_code": null,
+    "code": "97500",
+    "locality_name": null,
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

@@ -1,50 +1,50 @@
 [
-    {
-        "country_code": "MQ",
-        "state_code": null,
-        "code": "97200",
-        "locality_name": "Fort-de-France",
-        "type": "full",
-        "latitude": "14.60890000",
-        "longitude": "-61.07330000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MQ",
-        "state_code": null,
-        "code": "97220",
-        "locality_name": "La Trinité",
-        "type": "full",
-        "latitude": "14.73760000",
-        "longitude": "-60.96290000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MQ",
-        "state_code": null,
-        "code": "97250",
-        "locality_name": null,
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MQ",
-        "state_code": null,
-        "code": "97290",
-        "locality_name": "Le Marin",
-        "type": "full",
-        "latitude": "14.47210000",
-        "longitude": "-60.86970000",
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "MQ",
+    "state_code": null,
+    "code": "97200",
+    "locality_name": "Fort-de-France",
+    "type": "full",
+    "latitude": "14.60890000",
+    "longitude": "-61.07330000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MQ",
+    "state_code": null,
+    "code": "97220",
+    "locality_name": "La Trinité",
+    "type": "full",
+    "latitude": "14.73760000",
+    "longitude": "-60.96290000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MQ",
+    "state_code": null,
+    "code": "97250",
+    "locality_name": null,
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MQ",
+    "state_code": null,
+    "code": "97290",
+    "locality_name": "Le Marin",
+    "type": "full",
+    "latitude": "14.47210000",
+    "longitude": "-60.86970000",
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]

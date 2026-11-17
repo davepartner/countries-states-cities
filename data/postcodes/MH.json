@@ -1,26 +1,26 @@
 [
-    {
-        "country_code": "MH",
-        "state_code": null,
-        "code": "96960",
-        "locality_name": "Majuro",
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    },
-    {
-        "country_code": "MH",
-        "state_code": null,
-        "code": "96970",
-        "locality_name": "Ebeye",
-        "type": "full",
-        "latitude": null,
-        "longitude": null,
-        "source": "geonames-postal",
-        "wikiDataId": null,
-        "city_code": null
-    }
+  {
+    "country_code": "MH",
+    "state_code": null,
+    "code": "96960",
+    "locality_name": "Majuro",
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  },
+  {
+    "country_code": "MH",
+    "state_code": null,
+    "code": "96970",
+    "locality_name": "Ebeye",
+    "type": "full",
+    "latitude": null,
+    "longitude": null,
+    "source": "geonames-postal",
+    "wikiDataId": null,
+    "city_code": null
+  }
 ]
