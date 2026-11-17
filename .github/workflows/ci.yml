@@ -16,9 +16,19 @@ jobs:
         run: python3 tools/validate.py data
       - name: Rebuild every format
         run: python3 tools/export.py data dist
+      - name: Subset smoke tests
+        run: |
+          python3 tools/subset.py data /tmp/s1 --scope countries --region Africa
+          python3 tools/subset.py data /tmp/s2 --scope countries,states,cities --state US:CA,US:NY
+          python3 tools/subset.py data /tmp/s3 --scope all --country NG --format sql --sql-dialect sqlite
+          test "$(python3 -c "import json;print(len(json.load(open('/tmp/s1/json/countries.json'))))")" -gt 0
+          test "$(python3 -c "import json;print(len(json.load(open('/tmp/s2/json/cities.json'))))")" -gt 0
       - name: Re-validate generated SQL loads
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq sqlite3
           sqlite3 /tmp/world.db < dist/sql/sqlite/schema.sql
           sqlite3 /tmp/world.db < dist/sql/sqlite/data.sql
           sqlite3 /tmp/world.db "SELECT count(*) FROM cities;"
+          sqlite3 /tmp/subset.db < /tmp/s3/sql/sqlite/schema.sql
+          sqlite3 /tmp/subset.db < /tmp/s3/sql/sqlite/data.sql
+          sqlite3 /tmp/subset.db "SELECT count(*) FROM cities;"

@@ -189,10 +189,12 @@ SQL_TYPE_MAP = {
 }
 
 
-def sql_ddl(dialect):
-    """Return per-dialect DDL for every table."""
+def sql_ddl(dialect, tables=None):
+    """Return per-dialect DDL for the given tables (default: all)."""
+    tables = tables or LOAD_ORDER
     stmts = []
-    for table, spec in TABLES.items():
+    for table in tables:
+        spec = TABLES[table]
         cols = []
         for c, kind in spec["columns"]:
             ctype = SQL_TYPE_MAP[kind]
@@ -206,9 +208,10 @@ def sql_ddl(dialect):
     return "\n\n".join(stmts) + "\n"
 
 
-def sql_inserts(data, batch=500):
+def sql_inserts(data, tables=None, batch=500):
+    tables = tables or LOAD_ORDER
     out = io.StringIO()
-    for table in LOAD_ORDER:
+    for table in tables:
         spec = TABLES[table]
         cols = [c for c, _ in spec["columns"]]
         col_list = ", ".join(f'"{c}"' for c in cols)
@@ -308,6 +311,72 @@ def write_binary(path, blob):
         fh.write(blob)
 
 
+def emit(data, dst, tables=None, formats=None, sql_dialects=None):
+    """
+    Write every format for the given `tables` (default: all) to `dst`.
+
+    `tables`       — ordered list of table names to emit.
+    `formats`      — subset of {json, csv, sql, xml, yml, geojson, mongodb,
+                     parquet}; default: all.
+    `sql_dialects` — list of {mysql, postgresql, sqlite, sqlserver}; default all.
+    """
+    tables = tables or LOAD_ORDER
+    formats = formats or {"json", "csv", "sql", "xml", "yml", "geojson", "mongodb", "parquet"}
+    sql_dialects = sql_dialects or ("mysql", "postgresql", "sqlite", "sqlserver")
+
+    if "json" in formats:
+        write(os.path.join(dst, "json", "world.json"),
+              json_serializer([{t: data[t]} for t in tables], pretty=True))
+        for table in tables:
+            write(os.path.join(dst, "json", f"{table}.json"), json_serializer(data[table]))
+
+    if "csv" in formats:
+        for table in tables:
+            write(os.path.join(dst, "csv", f"{table}.csv"),
+                  csv_serializer(data[table], TABLES[table]["columns"]))
+
+    if "sql" in formats:
+        ddl = sql_ddl("ansi", tables)
+        inserts = sql_inserts(data, tables)
+        for dialect in sql_dialects:
+            write(os.path.join(dst, "sql", dialect, "schema.sql"), ddl)
+            write(os.path.join(dst, "sql", dialect, "data.sql"), inserts)
+
+    if "xml" in formats:
+        for table in tables:
+            write(os.path.join(dst, "xml", f"{table}.xml"), xml_serializer(data[table], table))
+
+    if "yml" in formats:
+        for table in tables:
+            write(os.path.join(dst, "yml", f"{table}.yml"),
+                  yaml_serializer(data[table], table, TABLES[table]["columns"]))
+
+    if "geojson" in formats:
+        for table in tables:
+            if table in ("countries", "states", "counties", "cities"):
+                write(os.path.join(dst, "geojson", f"{table}.geojson"),
+                      geojson_serializer(data[table], table))
+
+    if "mongodb" in formats:
+        for table in tables:
+            lines = "".join(json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "\n"
+                            for r in data[table])
+            write(os.path.join(dst, "mongodb", f"{table}.ndjson"), lines)
+
+    if "parquet" in formats:
+        try:
+            for table in tables:
+                blob = parquet_serializer(data[table], TABLES[table]["columns"])
+                write_binary(os.path.join(dst, "parquet", f"{table}.parquet"), blob)
+            print("parquet: written")
+        except ImportError:
+            print("parquet: skipped (install `pyarrow` to enable)")
+
+    counts = {t: len(data[t]) for t in tables}
+    print("exported:", counts)
+    print("wrote ->", os.path.abspath(dst))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("data", help="path to data/ directory")
@@ -315,57 +384,7 @@ def main():
     args = ap.parse_args()
 
     data = load_data(args.data)
-
-    # JSON
-    write(os.path.join(args.dst, "json", "world.json"),
-          json_serializer([{t: data[t]} for t in LOAD_ORDER], pretty=True))
-    for table in LOAD_ORDER:
-        write(os.path.join(args.dst, "json", f"{table}.json"), json_serializer(data[table]))
-
-    # CSV
-    for table, spec in TABLES.items():
-        write(os.path.join(args.dst, "csv", f"{table}.csv"),
-              csv_serializer(data[table], spec["columns"]))
-
-    # SQL (schema + inserts), four dialects share ANSI-ish syntax
-    ddl = sql_ddl("ansi")
-    inserts = sql_inserts(data)
-    for dialect in ("mysql", "postgresql", "sqlite", "sqlserver"):
-        write(os.path.join(args.dst, "sql", dialect, "schema.sql"), ddl)
-        write(os.path.join(args.dst, "sql", dialect, "data.sql"), inserts)
-
-    # XML
-    for table in LOAD_ORDER:
-        write(os.path.join(args.dst, "xml", f"{table}.xml"), xml_serializer(data[table], table))
-
-    # YAML
-    for table, spec in TABLES.items():
-        write(os.path.join(args.dst, "yml", f"{table}.yml"),
-              yaml_serializer(data[table], table, spec["columns"]))
-
-    # GeoJSON (only tables with coordinates)
-    for table in ("countries", "states", "counties", "cities"):
-        write(os.path.join(args.dst, "geojson", f"{table}.geojson"),
-              geojson_serializer(data[table], table))
-
-    # MongoDB (NDJSON)
-    for table in LOAD_ORDER:
-        lines = "".join(json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "\n"
-                        for r in data[table])
-        write(os.path.join(args.dst, "mongodb", f"{table}.ndjson"), lines)
-
-    # Parquet (optional)
-    try:
-        for table, spec in TABLES.items():
-            blob = parquet_serializer(data[table], spec["columns"])
-            write_binary(os.path.join(args.dst, "parquet", f"{table}.parquet"), blob)
-        print("parquet: written")
-    except ImportError:
-        print("parquet: skipped (install `pyarrow` to enable)")
-
-    counts = {t: len(data[t]) for t in LOAD_ORDER}
-    print("exported:", counts)
-    print("wrote ->", os.path.abspath(args.dst))
+    emit(data, args.dst)
 
 
 if __name__ == "__main__":
