@@ -1,0 +1,86 @@
+[
+    {
+        "country_code": "GU",
+        "state_code": "04",
+        "code": "96910",
+        "locality_name": "Chalan Pago-Ordot Village",
+        "type": "full",
+        "latitude": "13.45051100",
+        "longitude": "144.75070600",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GU",
+        "state_code": "03",
+        "code": "96913",
+        "locality_name": "Barrigada Village",
+        "type": "full",
+        "latitude": "13.47831100",
+        "longitude": "144.81505800",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GU",
+        "state_code": "14",
+        "code": "96915",
+        "locality_name": "Santa Rita Village",
+        "type": "full",
+        "latitude": "13.37445200",
+        "longitude": "144.70812500",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GU",
+        "state_code": "09",
+        "code": "96916",
+        "locality_name": "Merizo Village",
+        "type": "full",
+        "latitude": "13.26589700",
+        "longitude": "144.68916100",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GU",
+        "state_code": "08",
+        "code": "96917",
+        "locality_name": "Inarajan Village",
+        "type": "full",
+        "latitude": "13.28246400",
+        "longitude": "144.74268800",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GU",
+        "state_code": "06",
+        "code": "96928",
+        "locality_name": "Agat Village",
+        "type": "full",
+        "latitude": "13.35591700",
+        "longitude": "144.65730500",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GU",
+        "state_code": "18",
+        "code": "96929",
+        "locality_name": "Chaguian",
+        "type": "full",
+        "latitude": "13.56732600",
+        "longitude": "144.87805900",
+        "source": "us-census-via-gu-mirror",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

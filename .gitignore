@@ -1,0 +1,15 @@
+# Generated exports — rebuilt from data/ with `make export`, not committed.
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/

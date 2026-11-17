@@ -1,0 +1,50 @@
+[
+    {
+        "country_code": "RE",
+        "state_code": null,
+        "code": "97400",
+        "locality_name": "Saint-Denis",
+        "type": "full",
+        "latitude": "-20.88230000",
+        "longitude": "55.45040000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "RE",
+        "state_code": null,
+        "code": "97410",
+        "locality_name": "Saint-Pierre",
+        "type": "full",
+        "latitude": "-21.33930000",
+        "longitude": "55.47810000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "RE",
+        "state_code": null,
+        "code": "97460",
+        "locality_name": "Saint-Paul",
+        "type": "full",
+        "latitude": "-21.00960000",
+        "longitude": "55.27070000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "RE",
+        "state_code": null,
+        "code": "97470",
+        "locality_name": "Saint-Benoît",
+        "type": "full",
+        "latitude": "-21.03800000",
+        "longitude": "55.71940000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

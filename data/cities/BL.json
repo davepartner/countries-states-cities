@@ -1,0 +1,22 @@
+[
+    {
+        "country_code": "BL",
+        "state_code": "01",
+        "code": "Q34112",
+        "county_code": null,
+        "name": "Gustavia",
+        "kind": "other",
+        "type": "other",
+        "type_local": null,
+        "level": null,
+        "parent_code": null,
+        "native": "Gustavia",
+        "population": null,
+        "population_year": null,
+        "latitude": "17.89790833",
+        "longitude": "-62.85055556",
+        "timezone": "America/St_Barthelemy",
+        "translations": null,
+        "wikiDataId": "Q34112"
+    }
+]

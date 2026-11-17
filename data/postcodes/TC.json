@@ -1,0 +1,14 @@
+[
+    {
+        "country_code": "TC",
+        "state_code": null,
+        "code": "TKCA 1ZZ",
+        "locality_name": "Turks and Caicos Islands",
+        "type": "full",
+        "latitude": "21.73330000",
+        "longitude": "-71.58330000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

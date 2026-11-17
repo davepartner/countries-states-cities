@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Integrity checks
+        run: python3 tools/validate.py data
+      - name: Rebuild every format
+        run: python3 tools/export.py data dist
+      - name: Re-validate generated SQL loads
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq sqlite3
+          sqlite3 /tmp/world.db < dist/sql/sqlite/schema.sql
+          sqlite3 /tmp/world.db < dist/sql/sqlite/data.sql
+          sqlite3 /tmp/world.db "SELECT count(*) FROM cities;"

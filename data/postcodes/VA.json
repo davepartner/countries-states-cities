@@ -1,0 +1,14 @@
+[
+    {
+        "country_code": "VA",
+        "state_code": null,
+        "code": "00120",
+        "locality_name": "Citta' Del Vaticano",
+        "type": "full",
+        "latitude": "41.90240000",
+        "longitude": "12.45330000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

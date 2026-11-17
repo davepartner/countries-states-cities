@@ -1,0 +1,98 @@
+[
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "8099",
+        "locality_name": "Jan Mayen",
+        "type": "full",
+        "latitude": "70.94980000",
+        "longitude": "-8.63800000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9170",
+        "locality_name": "Longyearbyen",
+        "type": "full",
+        "latitude": "78.22330000",
+        "longitude": "15.64690000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9171",
+        "locality_name": "Longyearbyen",
+        "type": "full",
+        "latitude": "78.22330000",
+        "longitude": "15.64690000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9173",
+        "locality_name": "Ny-Ålesund",
+        "type": "full",
+        "latitude": "78.92370000",
+        "longitude": "11.92500000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9174",
+        "locality_name": "Hopen",
+        "type": "full",
+        "latitude": "76.62380000",
+        "longitude": "25.27080000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9175",
+        "locality_name": "Sveagruva",
+        "type": "full",
+        "latitude": "77.90030000",
+        "longitude": "16.72010000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9176",
+        "locality_name": "Bjørnøya",
+        "type": "full",
+        "latitude": "74.44820000",
+        "longitude": "19.01400000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "SJ",
+        "state_code": null,
+        "code": "9178",
+        "locality_name": "Barentsburg",
+        "type": "full",
+        "latitude": "78.06440000",
+        "longitude": "14.21170000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

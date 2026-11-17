@@ -1,0 +1,22 @@
+[
+    {
+        "country_code": "MF",
+        "state_code": "01",
+        "code": "Q200605",
+        "county_code": null,
+        "name": "Marigot",
+        "kind": "other",
+        "type": "other",
+        "type_local": null,
+        "level": null,
+        "parent_code": null,
+        "native": "Marigot",
+        "population": null,
+        "population_year": null,
+        "latitude": "18.07310000",
+        "longitude": "-63.08220000",
+        "timezone": "America/Marigot",
+        "translations": null,
+        "wikiDataId": "Q200605"
+    }
+]

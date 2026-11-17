@@ -1,0 +1,14 @@
+[
+    {
+        "country_code": "NR",
+        "state_code": null,
+        "code": "NRU68",
+        "locality_name": "Nauru",
+        "type": "full",
+        "latitude": "-0.51700000",
+        "longitude": "166.93300000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

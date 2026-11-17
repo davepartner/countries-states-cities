@@ -1,0 +1,42 @@
+[
+    {
+        "country_code": "PM",
+        "state_code": "01",
+        "code": "Q570289",
+        "county_code": null,
+        "name": "Miquelon-Langlade",
+        "kind": "other",
+        "type": "other",
+        "type_local": null,
+        "level": null,
+        "parent_code": null,
+        "native": "Miquelon-Langlade",
+        "population": null,
+        "population_year": null,
+        "latitude": "47.09722222",
+        "longitude": "-56.38138889",
+        "timezone": "America/Miquelon",
+        "translations": null,
+        "wikiDataId": "Q570289"
+    },
+    {
+        "country_code": "PM",
+        "state_code": "01",
+        "code": "Q185678",
+        "county_code": null,
+        "name": "Saint-Pierre",
+        "kind": "other",
+        "type": "other",
+        "type_local": null,
+        "level": null,
+        "parent_code": null,
+        "native": "Saint-Pierre",
+        "population": null,
+        "population_year": null,
+        "latitude": "46.77833333",
+        "longitude": "-56.17750000",
+        "timezone": "America/Miquelon",
+        "translations": null,
+        "wikiDataId": "Q185678"
+    }
+]

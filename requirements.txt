@@ -1,0 +1,3 @@
+# Optional: enables the Parquet export. The JSON/CSV/SQL/XML/YAML/GeoJSON/MongoDB
+# exports need no third-party packages (Python 3.10+ standard library only).
+pyarrow>=14.0

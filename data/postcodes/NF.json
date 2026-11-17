@@ -1,0 +1,14 @@
+[
+    {
+        "country_code": "NF",
+        "state_code": null,
+        "code": "2899",
+        "locality_name": "Territory of Norfolk Island",
+        "type": "full",
+        "latitude": "-29.03330000",
+        "longitude": "167.95000000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

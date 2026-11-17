@@ -1,0 +1,86 @@
+[
+    {
+        "country_code": "AD",
+        "state_code": "02",
+        "code": "AD100",
+        "locality_name": "Canillo",
+        "type": "full",
+        "latitude": "42.58330000",
+        "longitude": "1.66670000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "AD",
+        "state_code": "03",
+        "code": "AD200",
+        "locality_name": "Encamp",
+        "type": "full",
+        "latitude": "42.53330000",
+        "longitude": "1.63330000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "AD",
+        "state_code": "05",
+        "code": "AD300",
+        "locality_name": "Ordino",
+        "type": "full",
+        "latitude": "42.60000000",
+        "longitude": "1.55000000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "AD",
+        "state_code": "04",
+        "code": "AD400",
+        "locality_name": "La Massana",
+        "type": "full",
+        "latitude": "42.56670000",
+        "longitude": "1.48330000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "AD",
+        "state_code": "07",
+        "code": "AD500",
+        "locality_name": "Andorra la Vella",
+        "type": "full",
+        "latitude": "42.50000000",
+        "longitude": "1.50000000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "AD",
+        "state_code": "06",
+        "code": "AD600",
+        "locality_name": "Sant Julià de Lòria",
+        "type": "full",
+        "latitude": "42.46670000",
+        "longitude": "1.50000000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "AD",
+        "state_code": "08",
+        "code": "AD700",
+        "locality_name": "Escaldes-Engordany",
+        "type": "full",
+        "latitude": "42.50000000",
+        "longitude": "1.56670000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]

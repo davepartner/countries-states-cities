@@ -1,0 +1,38 @@
+[
+    {
+        "country_code": "GF",
+        "state_code": null,
+        "code": "97300",
+        "locality_name": "Cayenne",
+        "type": "full",
+        "latitude": "4.93330000",
+        "longitude": "-52.33330000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GF",
+        "state_code": null,
+        "code": "97310",
+        "locality_name": "Kourou",
+        "type": "full",
+        "latitude": "5.16280000",
+        "longitude": "-52.64270000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    },
+    {
+        "country_code": "GF",
+        "state_code": null,
+        "code": "97320",
+        "locality_name": "Saint-Laurent-du-Maroni",
+        "type": "full",
+        "latitude": "5.50100000",
+        "longitude": "-54.02940000",
+        "source": "geonames-postal",
+        "wikiDataId": null,
+        "city_code": null
+    }
+]
